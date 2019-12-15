@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<title>welcome</title>
+
+<body>
+
+<form action="process.php" method="post"> 
+<p><b>Username</b><br/> 
+<input type="text" placeholder="Enter Username" name="username" maxlength="10">  </p> 
+<p><b>Password</b><br> 
+<input type="password" placeholder="Enter Password"  name="password"></p> 
+<input type="submit" value="Log In"> </form>
+<br><br>
+
+
+<form action="process.php" method="GET"> 
+<fieldset > <legend> <b>Personal Information </b> </legend>
+<p>Username <br/> 
+<input type="text" placeholder="Enter Username" name="username">  
+</p> 
+<p>Password<br/> 
+<input type="password" placeholder="Enter Password"  name="password"> </p> 
+<p>Confirm Password<br/> 
+<input type="password" placeholder="Enter Password"  name="confirm-password"> </p>
+
+<p>Email address:</br> <input type="email" name="email-address" placeholder="Enter email address" /> </p>
+</fieldset>
+<p>What did you think of Japan? <br/> 
+<textarea name="comments" cols="20" rows="4"  maxlength="50">Enter your comments...</textarea> </p>
+
+<p>Please select your favourite genre of music:<br /> 
+<input type="radio" name="genre" value="rock" checked="checked" /> Rock 
+<input type="radio" name="genre" value="pop" /> Pop 
+<input type="radio" name="genre" value="jazz" /> Jazz 
+<input type="radio" name="genre" value="123" /> 122 </p>
+
+<p>Please choose your Hobbies (You can select more than one) <br />
+<input type="checkbox" name="hobby1" value="music"> Music <br> 
+<input type="checkbox" name="hobby2" value="sports"> Sports<br> 
+<input type="checkbox" name="hobby3" value="yoga"> Yoga<br>
+<input type="checkbox" name="hobby4" value="programming" checked> Programming <br>
+
+<p>Which semester are your currently enrolled in?<br/> 
+<select name="semester"> 
+<option value="fall2019">Fall 2019</option> 
+<option value="spring2020">Spring 2020</option> 
+<option value="fall2020">Fall 2020</option> </select> </p>
+
+<p>Which courses are you registered in this semester?<br/> 
+<select name="course-registered" multiple="multiple"> 
+<option value="web-programming" selected="selected">Web Programming</option> 
+<option value="database">Database</option> 
+<option value="computer-organization-theory">Computer Organization Theory</option> 
+</select> </p>
+
+<p>Upload your resume:<br/> <input type="file" name="resume" /><br/> </p>
+
+<p>Birthdate<br/> <input type="date" name="bday"/> </p>
+
+<br>
+<p> <input type="submit" value="Register" /> 
+<input type="reset" /> </p>   
+</form>
+
+
+
+
+<br><br>
+
+<!-- Here is paragraph about Nepal …Comments are not displayed in the browser --> <p> wwelcomeee</p> 
+<div id="header"> 
+<p id=“example” > Example </p> //only  at most one element
+<p class=“example”>Example</p
+<ul> <li><a href="index.html">Home</a></li> 
+<li><a href="biography.html">Biography</a></li> 
+<li><a href="works.html">Works</a></li> 
+<li><a href="contact.html">Contact</a></li> 
+</ul> </div> 
+<!-- end of header -->
+
+<p>&reg; Anish Kapoor won the Turner Prize in 1991 and exhibited at the 
+<span class="gallery">Tate Modern</span> 
+gallery in London in 2003.&copy</p>
+<p>&yen&yen&yen&yen&yen</p>
+<br><br>
+
+<h1 style="color: blue;">This is a Blue Heading</h1>
+
+<br><br>
+
+</body>
+</html>
